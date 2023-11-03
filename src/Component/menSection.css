@@ -1,0 +1,27 @@
+.container{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;              
+}
+.btn-r{
+        background:black;
+        color: white;
+        margin-bottom: 10px;
+        margin-left:1150px;
+        height:30px;
+        width:75px;
+        font-weight:bold;
+        font-size:17px;
+}
+.btn-l{
+        background:black;
+        color: white;
+        margin-right:19px ; 
+        margin-bottom: 10px;
+        margin-left: 100px;
+        height:30px ;
+        font-weight:bold;
+        font-size:17px;
+
+}

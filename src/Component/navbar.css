@@ -1,0 +1,157 @@
+.font{
+  margin-bottom: 15px;
+  margin-top: 5px;
+  font-size: 60px;
+}
+.col-yellow{
+  color: orange;
+  font-weight: bold;
+}
+.bg{
+  background-color: black;
+  height: 22px;
+}
+header {
+        background-color: #333;
+        color: #fff;
+        padding: 0px 0;
+      }
+
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+.navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      } 
+.navbar li {
+        margin-right: 20px;
+        text-align: center;
+        line-height: 50px;
+      }
+.navbar a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        margin: 50px;
+        font-size: 25px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      
+      /* Align content to the right for large screens */
+      .text-lg-right {
+        text-align: right;
+      }
+      
+      /* Make the image responsive */
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Define a custom column layout for large screens */
+      .col-lg-8 {
+        width: 66.666667%; /* 8 columns out of 12 columns */
+        float: left; /* Float the element to the left for a column layout */
+      }
+
+
+/* Adding responsive styles for smaller screens*/
+@media (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+  
+        .navbar ul {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+  
+        .navbar li {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+/* Style the dropdown container */
+.nav-item.dropdown {
+  position: relative;
+}
+
+/* Style the dropdown button (Dropdown) */
+.nav-link.dropdown-toggle {
+  cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
+
+/* Style the dropdown menu container */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Position the menu below the button */
+  left: 0;
+  z-index: 1000; /* Ensure the menu appears above other content */
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  opacity: 0; /* Initially, hide the dropdown menu */
+  pointer-events: none; /* Make the hidden dropdown unclickable */
+  transition: opacity 0.2s;
+}
+
+/* Show the dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  display: block;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  text-decoration: none;
+}
+
+/* Style the divider line between dropdown items */
+.dropdown-divider {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Change color on hover for dropdown items */
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+      
