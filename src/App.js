@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Component/Navbar';
-import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Component/Home';
 import MenClothingPage from './Component/MenSection';
 import ElectronicSection from './Component/ElectronicSection';
@@ -11,11 +11,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/cloths" component={MenClothingPage} />
-        <Route path="/electronics" component={ElectronicSection} />
-        <Route path="/jewelry" component={JewelerySection} />
-        </Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cloths" element={<MenClothingPage />} />
+        <Route path="/electronics" element={<ElectronicSection />} />
+        <Route path="/jewelry" element={<JewelerySection />} />
+      </Routes>
     </Router>
   );
 }
