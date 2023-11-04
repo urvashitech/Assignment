@@ -12,9 +12,9 @@ function JewelerySection() {
     fetch(apiEndpoint)
       .then((response) => response.json())
       .then((data) => {
-        // Filter men's clothing products based on your criteria
+       
         const mensClothingData = data.filter((product) => {
-          // Add your filtering logic here
+          
           return (
             product.title.toLowerCase().includes('jewelery') ||
             product.category.toLowerCase().includes('jewelery') ||
@@ -22,7 +22,7 @@ function JewelerySection() {
           );
         });
         
-        // Set the filtered men's clothing data in state
+        
         setMensClothing(mensClothingData);
       },[])
       .catch((error) => {

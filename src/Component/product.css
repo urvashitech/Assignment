@@ -4,10 +4,10 @@
         
 }
 .product-card {
-        width: calc(25% - 20px); /* Set the width for 3 cards in a row with spacing */
-        margin: 10px; /* Add spacing between cards */
+        width: calc(25% - 20px);
+        margin: 10px;
       }
-/* Style the card container */
+/* Styleing the card container */
 .card {
         width: 18rem;
         margin: 20px;
@@ -18,31 +18,31 @@
         transition: transform 0.2s;
       }
       
-      /* Style the card image */
+      /* Styleing the card image */
       .card-img-top {
         max-width: 100%;
         height: auto;
       }
       
-      /* Style the card body */
+      /* Styleing the card body */
       .card-body {
         padding: 20px;
       }
       
-      /* Style the card title */
+      /* Styleing the card title */
       .card-title {
         font-size: 1.25rem;
         font-weight: bold;
         margin-bottom: 10px;
       }
       
-      /* Style the card text */
+      /* Styleing the card text */
       .card-text {
         font-size: 1rem;
         color: #555;
       }
       
-      /* Style the primary button */
+      /* Styleing the primary button */
       .btn-primary {
         background-color: #007BFF;
         color: #fff;
